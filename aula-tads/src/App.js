@@ -9,6 +9,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import SearchPokemon from "./pages/SearchPokemon";
 import CreatePost from "./pages/CreatePost";
 import CreatePostLibForm from "./pages/CreatePostLibForm";
+import { PostExec } from "./pages/PostExec";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
   {
     path: "/search",
     element: <SearchPokemon />,
+  },
+  {
+    path: "/postExec",
+    element: <PostExec />,
   },
 ]);
 
